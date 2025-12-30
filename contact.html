@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Contact — Mulot Girls School</title>
+  <meta name="description" content="Contact Mulot Girls School: email, phone, address and contact form." />
+<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#8a1538" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/config.js"></script>
+  <script defer src="assets/js/data.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body id="top">
+  <header id="siteHeader"></header>
+  <main id="main">
+
+  <section class="pagehead">
+    <div class="container wrap">
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> <span>›</span> <span>Contact</span>
+      </div>
+      <h1>Contact Us</h1>
+      <p class="lead">
+        Reach the school office for admissions, academics, library support, and partnerships.
+      </p>
+      <div class="meta">
+        <span class="badge">✉ <span data-config="email"></span></span>
+        <span class="badge">☎ <span data-config="phone1"></span></span>
+        <span class="badge">📍 <span data-config="location"></span></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact" id="message">
+    <div class="container split">
+      <div class="card pad">
+        <h2>Send a message</h2>
+        <p class="small muted">
+          This form uses your email client (no backend). For a real online form,
+          connect Netlify Forms / Formspree or your school email server.
+        </p>
+        <form class="form" action="mailto:mulotgirlshighschool@gmail.com" method="post" enctype="text/plain">
+          <label>
+            Your name
+            <input class="input" name="name" placeholder="Full name" required />
+          </label>
+          <label>
+            Email
+            <input class="input" type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Subject
+            <input class="input" name="subject" placeholder="Admissions / Library / Academics…" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" placeholder="Write your message…" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="card pad">
+        <h2>Office Contacts</h2>
+        <ul class="list">
+          <li><strong>Email:</strong> <a href="mailto:mulotgirlshighschool@gmail.com"><span data-config="email"></span></a></li>
+          <li><strong>Phone:</strong> <span data-config="phone1"></span> / <span data-config="phone2"></span></li>
+          <li><strong>Address:</strong> <span data-config="address"></span></li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h3 id="parents">Parents & stakeholders</h3>
+        <p class="small muted">For meetings and official communication, contact the school office for scheduling.</p>
+
+        <div class="hr"></div>
+
+        <h3 id="gallery">Gallery (placeholder)</h3>
+        <p class="small muted">
+          Add photos inside <code>assets/img/</code> and create a gallery section here.
+        </p>
+        <div class="grid two" style="margin-top:.8rem;">
+          <div class="card soft pad">Photo placeholder</div>
+          <div class="card soft pad">Photo placeholder</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+  <footer id="siteFooter"></footer>
+</body>
+</html>

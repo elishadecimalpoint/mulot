@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Mulot Girls School — Home</title>
+  <meta name="description" content="Official website for Mulot Girls School: Academics, departments, library, staff portfolio, admissions, news and contact." />
+<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#8a1538" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/config.js"></script>
+  <script defer src="assets/js/data.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body id="top">
+  <header id="siteHeader"></header>
+  <main id="main">
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="card hero-card">
+        <div class="badge">🏫 <span data-config="category"></span> • Pathways: <span data-config="pathways"></span></div>
+        <p class="kicker">Welcome to</p>
+        <h1><span data-config="name"></span></h1>
+        <p class="lead">
+          A learner‑centred senior school offering two CBC pathways — <strong>STEM</strong> and <strong>Social Science</strong> —
+          focused on academic excellence, strong values, and holistic development.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="admissions.html">Admissions</a>
+          <a class="btn" href="academics.html#pathways">Explore Pathways</a>
+          <a class="btn outline" href="library.html#eresources">Library E‑Resources</a>
+        </div>
+
+        <div class="hero-meta">
+          <span class="badge">📍 <span data-config="location"></span></span>
+          <span class="badge">✉ <span data-config="email"></span></span>
+          <span class="badge">☎ <span data-config="phone1"></span></span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <img src="assets/img/hero.svg" alt="Illustration of learning and school services" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="container">
+      <div class="split">
+        <div>
+          <h2>Quick Links</h2>
+          <p class="lead">Common tasks, resources, and information in one place.</p>
+        </div>
+        <div class="card soft pad">
+          <div class="badge">⭐ What’s new</div>
+          <p class="small muted" style="margin-top:.6rem;">
+            Visit the <a href="news.html">News</a> page for updates, notices, and school events.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid two" id="quickLinks" style="margin-top:1rem;"></div>
+    </div>
+  </section>
+
+  <section class="section" id="notices">
+    <div class="container">
+      <div class="split" style="align-items:end;">
+        <div>
+          <h2>Notices</h2>
+          <p class="lead">Important announcements for parents, learners, and staff.</p>
+        </div>
+        <div style="display:flex; gap:.6rem; justify-content:flex-end; flex-wrap:wrap;">
+          <a class="btn small" href="admissions.html#downloads">Downloads</a>
+          <a class="btn small primary" href="contact.html#message">Contact us</a>
+        </div>
+      </div>
+
+      <div class="grid three" id="noticesList" style="margin-top:1rem;"></div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="container">
+      <div class="card pad">
+        <div class="split">
+          <div>
+            <div class="badge">🎯 C3 Pathways</div>
+            <h2 style="margin-top:.6rem;">STEM & Social Science</h2>
+            <p class="lead">
+              Learners select a pathway aligned to strengths and goals, guided by academic counselling.
+              Each pathway includes core learning areas and specialised subject options.
+            </p>
+            <div style="display:flex; gap:.6rem; flex-wrap:wrap; margin-top:.8rem;">
+              <a class="btn small primary" href="academics.html#stem">Explore STEM</a>
+              <a class="btn small" href="academics.html#social">Explore Social Science</a>
+              <a class="btn small outline" href="departments.html">View Departments</a>
+            </div>
+          </div>
+
+          <div class="card soft pad">
+            <h3>What we emphasise</h3>
+            <ul class="list">
+              <li>Competency‑based learning & continuous assessment</li>
+              <li>Strong mentorship, guidance and counselling</li>
+              <li>Practical work, research, and projects</li>
+              <li>Co‑curricular activities for holistic growth</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="events">
+    <div class="container">
+      <div class="split" style="align-items:end;">
+        <div>
+          <h2>Events</h2>
+          <p class="lead">Upcoming school activities and key dates.</p>
+        </div>
+        <div class="badge">📅 Updated regularly</div>
+      </div>
+
+      <div class="card pad" style="margin-top:1rem;">
+        <table class="table" aria-label="Upcoming events">
+          <thead>
+            <tr><th>Date</th><th>Event</th><th>Location</th></tr>
+          </thead>
+          <tbody id="eventsTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="container">
+      <div class="split" style="align-items:end;">
+        <div>
+          <h2>Latest News</h2>
+          <p class="lead">Highlights and updates from the school community.</p>
+        </div>
+        <a class="btn small primary" href="news.html">View all news</a>
+      </div>
+
+      <div class="grid three" id="newsPreview" style="margin-top:1rem;"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="split">
+        <div class="card pad">
+          <div class="badge">👩🏽‍💼 Leadership</div>
+          <h2 style="margin-top:.6rem;">Message from the Principal</h2>
+          <p class="lead">
+            At <strong><span data-config="name"></span></strong>, we nurture learners to become confident, skilled, and values‑driven leaders.
+            Our programmes emphasise excellence, discipline, and service.
+          </p>
+          <p class="muted small">
+            We welcome partnerships that support teaching resources, mentorship, and learner opportunities.
+          </p>
+          <div style="display:flex; gap:.6rem; flex-wrap:wrap; margin-top:.9rem;">
+            <a class="btn small primary" href="about.html#leadership">Leadership</a>
+            <a class="btn small" href="contact.html#message">Partnerships</a>
+          </div>
+        </div>
+
+        <div class="card pad">
+          <div class="badge">🏛️ Library</div>
+          <h2 style="margin-top:.6rem;">Learning Resources</h2>
+          <p class="lead">
+            Our library supports reading culture, research, and digital literacy — including e‑resources for learners and teachers.
+          </p>
+          <ul class="list">
+            <li>Information literacy sessions</li>
+            <li>Reading programme and clubs</li>
+            <li>Digital resources corner</li>
+            <li>Past papers and reference materials</li>
+          </ul>
+          <div style="display:flex; gap:.6rem; flex-wrap:wrap; margin-top:.9rem;">
+            <a class="btn small primary" href="library.html#services">Library services</a>
+            <a class="btn small outline" href="library.html#eresources">E‑resources</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+  <footer id="siteFooter"></footer>
+</body>
+</html>
